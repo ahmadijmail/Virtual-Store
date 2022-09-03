@@ -1,6 +1,7 @@
 import React from "react";
 import Product from "./Product";
-import { useState } from "react";
+import { useSelector } from "react-redux";
+
 
 
 //const [dummy, setdummy]=useState()
@@ -79,11 +80,18 @@ const DUMMY_PRODUCTS2 = [
     price: 25,
   },
 ];
+
+const all = [...DUMMY_PRODUCTS,...DUMMY_PRODUCTS2]
+
 const Products = () => {
+
+  const choosecatrgore= useSelector(state=>state.Categorie.Categorie)
+  
+console.log(all);
   return (
     <div>
       <ul className="products-container">
-        {DUMMY_PRODUCTS.map((product, index) => (
+        {(choosecatrgore=="laptop"?DUMMY_PRODUCTS:choosecatrgore=="tv"?DUMMY_PRODUCTS2:all  ).map((product, index) => (
           <li key={index}>
             <Product
               id={product.id}
