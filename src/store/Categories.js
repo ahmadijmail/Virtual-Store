@@ -7,11 +7,11 @@ const CategoriesSlice = createSlice({
   },
 
   reducers: {
-    laptops(state, action) {
-      state.Categorie = this.laptop;
+    setlaptops(state, action) {
+      state.Categorie = "laptop";
     },
-    tv(state, action) {
-      state.Categorie = this.tv;
+    settv(state, action) {
+      state.Categorie = "tv";
     },
   },
 });

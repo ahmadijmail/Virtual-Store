@@ -1,7 +1,17 @@
 import React from "react";
+import {useDispatch} from "react-redux"
 import Cart from "./Cart";
+import {Categoriesactions} from "../store/Categories";
 import "./Header.css";
 const Header = () => {
+  const dispatch = useDispatch();
+
+  const showLaptop = () => {
+    dispatch(Categoriesactions.setlaptops());
+  };
+  const showtv = () => {
+    dispatch(Categoriesactions.settv());
+  };
   return (
     <header>
       <nav className="header-nav">
@@ -18,12 +28,11 @@ const Header = () => {
             <Cart />
           </li>
         </ul>
-
       </nav>
 
-      <button>Lapotops</button>
+      <button onClick={showLaptop}>Lapotops</button>
       <span> </span>
-      <button>TVs</button>
+      <button onClick={showtv}>TVs</button>
     </header>
   );
 };
