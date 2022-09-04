@@ -8,38 +8,38 @@ import { useSelector } from "react-redux";
 const DUMMY_PRODUCTS = [
   {
     id: 1,
-    name: "MacBook",
+    name: "MacBook Pro",
     imgURL:
-      "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    price: 25,
+      "https://www.notebookcheck.net/uploads/tx_nbc2/MacBook_Pro_14.jpg",
+    price: 500,
   },
   {
     id: 2,
-    name: "Lenovo Yoga",
+    name: "MacBook Air",
     imgURL:
-      "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    price: 25,
+      "https://static-01.daraz.lk/p/27eb574c8a32aff46004506d94a75783.jpg",
+    price: 400,
   },
   {
     id: 3,
     name: "Dell lattitude",
     imgURL:
-      "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    price: 25,
+      "https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/plp/laptops/list-d14.jpg",
+    price: 300,
   },
   {
     id: 4,
     name: "HP Pavillion",
     imgURL:
-      "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    price: 25,
+      "https://cdn.mos.cms.futurecdn.net/vEcELHdn998wRTcCzqV5m9.jpg",
+    price: 250,
   },
   {
     id: 5,
     name: "Acer Aspire",
     imgURL:
-      "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    price: 25,
+      "https://i.insider.com/619ea503ee9795001883db36?width=750&format=jpeg&auto=webp",
+    price: 250,
   },
 ];
 
