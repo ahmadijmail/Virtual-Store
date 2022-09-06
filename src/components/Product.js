@@ -7,7 +7,7 @@ const Product = ({ name, id, imgURL, price }) => {
       <img src={imgURL} alt={name} />
       <h2>{name}</h2>
       <p>$ {price}</p>
-      <button>Add to cart</button>
+     {/* // <button>Add to cart</button> */}
     </div>
   );
 };

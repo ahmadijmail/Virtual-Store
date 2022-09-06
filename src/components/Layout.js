@@ -15,6 +15,8 @@ const Layout = () => {
           <button className="orderBtn">Place Order</button>
         </div>{" "}
       </div>
+
+      
     </React.Fragment>
   );
 };
