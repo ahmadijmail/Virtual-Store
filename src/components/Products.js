@@ -45,35 +45,35 @@ const DUMMY_PRODUCTS = [
 
 const DUMMY_PRODUCTS2 = [
   {
-    id: 1,
+    id: 6,
     name: "Samsung 50 BU8100",
     imgURL:
       "https://images.samsung.com/is/image/samsung/p6pim/levant/ua50bu8100uxtw/gallery/levant-uhd-4k-tv-ua50bu8100uxtw-r-perspective-black-532991338?$720_576_PNG$",
     price: 25,
   },
   {
-    id: 2,
+    id: 7,
     name: "Samsung 65” Class QN90B",
     imgURL:
       "https://image-us.samsung.com/SamsungUS/home/easy-asset/02252022/01_QN65QN90BAFXZA_011_Front3_Titan-Black.jpg?$product-details-jpg$",
     price: 25,
   },
   {
-    id: 3,
+    id: 8,
     name: "LG 50″,LED,UHD 4K,Smart TV",
     imgURL:
       "https://leaders.jo/wp-content/uploads/2022/07/Screenshot-2021-02-25-133922.jpg",
     price: 25,
   },
   {
-    id: 4,
+    id: 9,
     name: "LG UHD 70 Series",
     imgURL:
       "https://www.lg.com/us/images/tvs/md07511603/gallery/desktop-06.jpg",
     price: 25,
   },
   {
-    id: 5,
+    id: 10,
     name: "G Guard 50 LED Smart TV",
     imgURL:
       "https://newtonstores.com/web/image/product.template/12114/image",
@@ -87,7 +87,7 @@ const Products = () => {
 
   const choosecatrgore= useSelector(state=>state.Categorie.Categorie)
   
-console.log(all);
+//console.log(all);
   return (
     <div>
       <ul className="products-container">
