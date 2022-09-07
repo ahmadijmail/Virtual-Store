@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Products from "./Products";
 import "./Layout.css";
+import CartItem from './CartItem'
 const Layout = () => {
   let total = 100;
 
@@ -16,7 +17,7 @@ const Layout = () => {
         </div>{" "}
       </div>
 
-      
+<CartItem/>
     </React.Fragment>
   );
 };
