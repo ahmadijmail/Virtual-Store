@@ -13,6 +13,7 @@ const Product = ({ name, id, imgURL, price }) => {
         name: name,
         id: id,
         price: price,
+        imgURL:imgURL
       })
     );
   };
@@ -23,6 +24,7 @@ const Product = ({ name, id, imgURL, price }) => {
       <h2>{name}</h2>
       <p>$ {price}</p>
       <button onClick={addtoCart}>Add to cart</button>
+      <button onClick={addtoCart}>View Details</button>
     </div>
   );
 };
